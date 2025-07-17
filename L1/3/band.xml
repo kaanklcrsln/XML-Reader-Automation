@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href='band.xsl' type='text/xsl'?>
+<Dimap_Document>
+    <Metadata_Id>
+        <METADATA_FORMAT version="1.1">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BAND</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_INDEX>RST_20201026_e95_6</DATASET_INDEX>
+        <DATASET_SERIES>RASAT</DATASET_SERIES>
+        <DATASET_NAME>Band 3 Seviye 1 uydu görüntüsü</DATASET_NAME>
+        <COPYRIGHT>(c) Tubitak-Uzay</COPYRIGHT>
+        <DATASET_TN_PATH href="thumbnail.jpeg"/>
+        <DATASET_QL_PATH href="quicklook.jpg"/>
+        <DATASET_TN_FORMAT>JPEG</DATASET_TN_FORMAT>
+        <DATASET_QL_FORMAT>JPEG</DATASET_QL_FORMAT>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME>Tubitak Uzay</DATASET_PRODUCER_NAME>
+        <DATASET_PRODUCER_URL href="http://www.uzay.tubitak.gov.tr/"/>
+        <DATASET_PRODUCTION_DATE>2020.11.10_1513</DATASET_PRODUCTION_DATE>
+        <PRODUCT_INFO>RST_20201026_e95_6 Nolu görevin Band 3 Seviye 1 uydu görüntüsü</PRODUCT_INFO>
+        <JOB_ID>RST_20201026_e95_6</JOB_ID>
+    </Production>
+    <Geoposition>
+        <Geoposition_Points>
+            <Tie_Point>
+                <TIE_POINT_CRS_X unit="DEG">32.3317056288936</TIE_POINT_CRS_X>
+                <TIE_POINT_CRS_Y unit="DEG">40.03062344398274</TIE_POINT_CRS_Y>
+                <TIE_POINT_CRS_Z unit="DEG">0.0</TIE_POINT_CRS_Z>
+                <TIE_POINT_DATA_X>0.0</TIE_POINT_DATA_X>
+                <TIE_POINT_DATA_Y>0.0</TIE_POINT_DATA_Y>
+            </Tie_Point>
+            <Tie_Point>
+                <TIE_POINT_CRS_X unit="DEG">32.667749319639036</TIE_POINT_CRS_X>
+                <TIE_POINT_CRS_Y unit="DEG">39.98176328652286</TIE_POINT_CRS_Y>
+                <TIE_POINT_CRS_Z unit="DEG">0.0</TIE_POINT_CRS_Z>
+                <TIE_POINT_DATA_X>2048.0</TIE_POINT_DATA_X>
+                <TIE_POINT_DATA_Y>0.0</TIE_POINT_DATA_Y>
+            </Tie_Point>
+            <Tie_Point>
+                <TIE_POINT_CRS_X unit="DEG">31.500802087928626</TIE_POINT_CRS_X>
+                <TIE_POINT_CRS_Y unit="DEG">37.29206900864542</TIE_POINT_CRS_Y>
+                <TIE_POINT_CRS_Z unit="DEG">0.0</TIE_POINT_CRS_Z>
+                <TIE_POINT_DATA_X>0.0</TIE_POINT_DATA_X>
+                <TIE_POINT_DATA_Y>20480.0</TIE_POINT_DATA_Y>
+            </Tie_Point>
+            <Tie_Point>
+                <TIE_POINT_CRS_X unit="DEG">31.824129083851904</TIE_POINT_CRS_X>
+                <TIE_POINT_CRS_Y unit="DEG">37.24512606531289</TIE_POINT_CRS_Y>
+                <TIE_POINT_CRS_Z unit="DEG">0.0</TIE_POINT_CRS_Z>
+                <TIE_POINT_DATA_X>2048.0</TIE_POINT_DATA_X>
+                <TIE_POINT_DATA_Y>20480.0</TIE_POINT_DATA_Y>
+            </Tie_Point>
+        </Geoposition_Points>
+    </Geoposition>
+    <Raster_Dimensions>
+        <NCOLS>2048</NCOLS>
+        <NROWS>2048</NROWS>
+        <NBANDS>1</NBANDS>
+    </Raster_Dimensions>
+    <Data_Processing>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>GAIN</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>3</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>OFFSET</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>0</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>ESTIMATED_ROLL</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>1.3664873473146026</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>ESTIMATED_PITCH</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>-1.434785694504241E-4</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>ESTIMATED_YAW</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>180.0</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>NUM_OF_FRAME</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>1</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>ILLUMINATION</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>0.4900940904863454</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>SAMPLING_STEP_X</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>15.0</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>SAMPLING_STEP_Y</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>15.0</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>MISSION_DURATION</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>5.261574115138501E-4</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+        <Processing_Parameter>
+            <PROC_PARAMETER_DESC>PIXEL_OFFSET</PROC_PARAMETER_DESC>
+            <PROC_PARAMETER_VALUE>0</PROC_PARAMETER_VALUE>
+        </Processing_Parameter>
+    </Data_Processing>
+    <Data_Access>
+        <DATA_FILE_FORMAT>GEOTIFF</DATA_FILE_FORMAT>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="image.tif"/>
+            <BAND_INDEX>3</BAND_INDEX>
+        </Data_File>
+    </Data_Access>
+    <Dataset_Sources>
+        <Source_Information>
+            <SOURCE_ID>Ic_Anadolu_Serit_SSDR_PPC </SOURCE_ID>
+            <SOURCE_DESCRIPTION>Plan:	26.10.2020 - 10:03:12.633 Açı: 1.3665 Aydınlanma: 0.4901&#xD;
+Ofst:	Rl 0.5°, Pt 0.9°&#xD;
+YnOfst:	Rl ?°, Pt ?°&#xD;
+%100 indirildi</SOURCE_DESCRIPTION>
+            <Scene_Source>
+                <IMAGING_DATE>2020-10-26</IMAGING_DATE>
+                <IMAGING_TIME>10:02:49.901155913</IMAGING_TIME>
+                <SCENE_PROCESSING_LEVEL>1</SCENE_PROCESSING_LEVEL>
+            </Scene_Source>
+        </Source_Information>
+    </Dataset_Sources>
+</Dimap_Document>

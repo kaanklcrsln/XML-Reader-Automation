@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href='package.xsl' type='text/xsl'?>
+<Dimap_Document>
+    <Metadata_Id>
+        <METADATA_FORMAT version="1.1">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>PACKAGE</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_INDEX>RST_20201026_e95_6</DATASET_INDEX>
+        <DATASET_SERIES>RASAT</DATASET_SERIES>
+        <DATASET_NAME>Seviye 1 uydu görüntüsü</DATASET_NAME>
+        <COPYRIGHT>(c) Tubitak-Uzay</COPYRIGHT>
+        <DATASET_TN_PATH href="thumbnail.jpeg"/>
+        <DATASET_QL_PATH href="quicklook.jpg"/>
+        <DATASET_TN_FORMAT>JPEG</DATASET_TN_FORMAT>
+        <DATASET_QL_FORMAT>JPEG</DATASET_QL_FORMAT>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME>Tubitak Uzay</DATASET_PRODUCER_NAME>
+        <DATASET_PRODUCER_URL href="http://www.uzay.tubitak.gov.tr/"/>
+        <DATASET_PRODUCTION_DATE>2020.11.10_1513</DATASET_PRODUCTION_DATE>
+        <PRODUCT_INFO>RST_20201026_e95_6 Nolu görevin Seviye 1 uydu görüntüsü</PRODUCT_INFO>
+        <JOB_ID>RST_20201026_e95_6</JOB_ID>
+    </Production>
+    <Dataset_Components>
+        <Component>
+            <COMPONENT_TITLE>0</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Uydu görüntüsü</COMPONENT_CONTENT>
+            <COMPONENT_TYPE>DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="0/band.xml"/>
+            <COMPONENT_TN_PATH href="0/thumbnail.jpeg"/>
+            <COMPONENT_TN_FORMAT>JPEG</COMPONENT_TN_FORMAT>
+        </Component>
+        <Component>
+            <COMPONENT_TITLE>1</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Uydu görüntüsü</COMPONENT_CONTENT>
+            <COMPONENT_TYPE>DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="1/band.xml"/>
+            <COMPONENT_TN_PATH href="1/thumbnail.jpeg"/>
+            <COMPONENT_TN_FORMAT>JPEG</COMPONENT_TN_FORMAT>
+        </Component>
+        <Component>
+            <COMPONENT_TITLE>2</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Uydu görüntüsü</COMPONENT_CONTENT>
+            <COMPONENT_TYPE>DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="2/band.xml"/>
+            <COMPONENT_TN_PATH href="2/thumbnail.jpeg"/>
+            <COMPONENT_TN_FORMAT>JPEG</COMPONENT_TN_FORMAT>
+        </Component>
+        <Component>
+            <COMPONENT_TITLE>3</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Uydu görüntüsü</COMPONENT_CONTENT>
+            <COMPONENT_TYPE>DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="3/band.xml"/>
+            <COMPONENT_TN_PATH href="3/thumbnail.jpeg"/>
+            <COMPONENT_TN_FORMAT>JPEG</COMPONENT_TN_FORMAT>
+        </Component>
+    </Dataset_Components>
+    <Raster_Dimensions>
+        <NBANDS>4</NBANDS>
+    </Raster_Dimensions>
+    <Image_Display>
+        <Band_Display_Order>
+            <RED_CHANNEL>1</RED_CHANNEL>
+            <GREEN_CHANNEL>2</GREEN_CHANNEL>
+            <BLUE_CHANNEL>3</BLUE_CHANNEL>
+        </Band_Display_Order>
+    </Image_Display>
+    <Dataset_Sources>
+        <Source_Information>
+            <SOURCE_DESCRIPTION/>
+            <Scene_Source>
+                <SCENE_PROCESSING_LEVEL>1</SCENE_PROCESSING_LEVEL>
+            </Scene_Source>
+        </Source_Information>
+    </Dataset_Sources>
+</Dimap_Document>
