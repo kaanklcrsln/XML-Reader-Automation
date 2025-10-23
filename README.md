@@ -1,4 +1,4 @@
-# XML Metadata Automation Script
+# XML Metadata Automation
 
 This Python script extracts key metadata from satellite processing XML files and outputs the results in a structured JSON format.  
 It is designed to read `package.xml` and multiple `band.xml` files located in a defined directory hierarchy.
