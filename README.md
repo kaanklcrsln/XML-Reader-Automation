@@ -45,6 +45,6 @@ xml-otomasyon/
   }
 }
 
-#Requirements
+# Requirements
 Python 3.8 or higher
 No external dependencies (uses only built-in libraries)
